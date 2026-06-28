@@ -1,0 +1,20 @@
+# Private keys and local configuration
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Generated files
+artifacts/
+cache/
+frontend/dist/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
