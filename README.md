@@ -124,4 +124,8 @@ npm install
 npm run dev
 ```
 
-After you deploy the Solidity contract, set `VITE_CONTRACT_ADDRESS` in `frontend/.env`, restart the Vite server, and connect an EVM wallet. The frontend uses the ABI for `createBounty`, `submitCommitment`, `revealAnswer`, `judgeAll`, and `finalizeWinner`.
+After you deploy the Solidity contract, set `VITE_CONTRACT_ADDRESS` in `frontend/.env`, restart the Vite server, and connect an EVM wallet. 
+
+<img width="1849" height="979" alt="8aee9e252e88652975e9940a9ef88405" src="https://github.com/user-attachments/assets/b981458e-2edb-4b0f-b997-072086a4fd0d" />
+
+The frontend uses the ABI for `createBounty`, `submitCommitment`, `revealAnswer`, `judgeAll`, and `finalizeWinner`.
